@@ -30,7 +30,7 @@ while(number <=50) {
 }
 
 let number1 = 10;
-console.log("do while");
+
 do {
   if(number1 % 5 === 0){
     console.log(number1);
