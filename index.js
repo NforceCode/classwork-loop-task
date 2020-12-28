@@ -5,17 +5,20 @@
 for(let i=25; i>= 0; i--) {
   console.log(i);
 }
-console.log("---------------------------");
+
 let count = 25;
 
 while(count >= 0) {
   console.log(count--);
 }
-console.log("---------------------------");
+
+
 count = 25;
+
 do {
   console.log(count--);
 } while(count >=0)
+
 // 2) Вывод чисел от 10 до 50, которые кратны 5
 
 let number =10;
@@ -35,6 +38,7 @@ do {
   number1++;
 } while(number1 <=50);
 
+
 for (let i =10; i <= 50; i++) {
   if(i % 5 === 0) {
     console.log(i);
@@ -47,6 +51,7 @@ let sum = 0;
 for (i = 1; i <= 100; i++) {
   sum += i;
 }
+
 console.log(sum);
 sum = 0;
 let counter =0;
@@ -64,6 +69,7 @@ do {
   sum += counter;
   counter++;
 } while(counter <= 100)
+
 console.log(sum);
 
 // 4) предлагать пользователю решить пример (2 + 2 * 2) до тех пор, пока он его не решит
